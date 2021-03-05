@@ -3,7 +3,7 @@
     'name': "openacademy",
 
     'summary': """
-        Manage trainings""",
+        Manage trainings and courses""",
 
     'description': """
          Open Academy module for managing trainings:
@@ -26,9 +26,10 @@
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
-        'views/views.xml',
-        'views/templates.xml',
+        'security/ir.model.access.csv',
+        #'views/views.xml',
+        #'views/templates.xml',
+        'views/openacademy.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
